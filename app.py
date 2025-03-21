@@ -3,7 +3,7 @@ import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
-st.title("📚 Assignment Plagiarism Checker")
+st.title("📚 CopyCatcher ")
 st.write("Upload student assignments and check for plagiarism.")
 
 # Teacher sets plagiarism threshold
